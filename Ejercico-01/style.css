@@ -9,7 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-text-shadow: 2px 2px 4px red;
+    text-shadow: 2px 2px 4px red;
+    padding-top: 12rem;
 }
 
 h1{
