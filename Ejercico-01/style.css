@@ -21,7 +21,17 @@ h1:hover{
     
 }
 
-p{
-    font-size: 1.5rem;
+article{
+    font-size: 1.2rem;
     text-align: center;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.33s ease-in-out;
+}
+
+article:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px;
 }
