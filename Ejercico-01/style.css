@@ -1,0 +1,27 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: white;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+text-shadow: 2px 2px 4px red;
+}
+
+h1{
+    transition: all 0.33s ease-in-out;
+}
+
+h1:hover{
+    transform: scale(1.1);
+    
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+}
