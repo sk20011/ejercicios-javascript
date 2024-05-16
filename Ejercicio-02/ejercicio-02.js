@@ -5,4 +5,3 @@
     let resultadoCircunferencia = (pi * entradaRadio ** 2);
     resultadoCircunferencia = "<span style= 'color: red;'><b>"+ resultadoCircunferencia+"</b></span>"
     document.getElementById("resultada").innerHTML += resultadoCircunferencia;
-96
